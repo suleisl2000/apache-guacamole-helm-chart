@@ -22,7 +22,7 @@ guacamole:
     MYSQL_PORT: 3306
 
   ingress:
-    enabled: false
+    enabled: true
     annotations: 
       kubernetes.io/ingress.class: nginx
       # certmanager.k8s.io/issuer: "letsencrypt-prod"
