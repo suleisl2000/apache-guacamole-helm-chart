@@ -29,7 +29,7 @@ guacamole:
       # certmanager.k8s.io/acme-challenge-type: http01
     path: /
     hosts:
-      - guacamole.apache.org
+      - guacamole.mytest
     # tls: []
     #  - secretName: chart-example-tls
     #    hosts:
