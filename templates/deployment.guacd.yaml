@@ -26,7 +26,6 @@ spec:
           ports:
             - name: guacd
               containerPort: 4822
-              hostPort: 4822
               protocol: TCP
           resources:
 {{ toYaml .Values.guacd.resources | indent 12 }}
